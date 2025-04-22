@@ -62,3 +62,9 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+
+### Download Package
+
+```sh
+npm install tailwindcss @tailwindcss/vite
+```
