@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="css">
 .header_img {
   position: absolute;
   width: 100%;
