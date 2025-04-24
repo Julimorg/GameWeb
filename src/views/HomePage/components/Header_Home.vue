@@ -1,39 +1,22 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="header">
-    <img src="/src/assets/header_background.png" alt="" class="header_img" />
+  <div class="header relative top-0 h-[15rem] w-full border-0">
+    <img
+      src="/src/assets/header_background.png"
+      alt=""
+      class="header_img absolute w-full h-[15rem]"
+    />
     <div class="content-box">
-      <h1>Super 7</h1>
-      <h2>Planning the craziest tactics with your hands</h2>
+      <h1 class="top-[30%] font-m6x11 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl">
+        Super7
+      </h1>
+      <h2
+        class="top-[70%] font-m6x11 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl text-white"
+      >
+        Planning the craziest tactics with your hands
+        <RouterLink to="/" class="text-customPink">Home / </RouterLink>
+        <RouterLink to="/about" class="text-customPink">About</RouterLink>
+      </h2>
     </div>
   </div>
 </template>
-
-<style lang="css">
-.header_img {
-  position: absolute;
-  width: 100%;
-  height: 15rem;
-}
-.header {
-  top: 0;
-  position: relative;
-  height: 15rem;
-  width: 100%;
-  border: none;
-}
-h1 {
-  top: 35%;
-}
-h2 {
-  top: 50%;
-  color: #fff;
-}
-.content-box h1,
-h2 {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'm6x 11', sans-serif;
-}
-</style>
