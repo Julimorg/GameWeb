@@ -7,21 +7,34 @@
     >
       {{ name }}
     </div>
-    <div class="content padding-[8px 12px] text-sm font-semibold  p-[10px] h-[10rem] w-full bg-[#333]">
+    <div class="content padding-[8px 12px] text-xl font-semibold  p-[10px] h-[10rem] w-full ">
       {{ desc }}
       <br />
     </div>
-    <div class="information-box w-[30%] bg-[#333] h-[4rem] flex flex-col items-center justify-center">
-      <button class="button"></button>
+    <div class="information-box w-[50%] relative left-[25%] rounded-xl h-[4rem] flex flex-col items-center justify-center">
+      <IconSocialBar
+        :facebookUrl = facebookUrl
+        :githubUrl = githubUrl
+        :linkedinUrl = linkedinUrl
+        :instagramUrl = instagramUrl
+      />
     </div>
   </div>
 </template>
 <script setup lang="ts">
+
+import IconSocialBar from '@/components/IconSocialBar/IconSocialBar.vue';
+
 defineProps<{
   name: string
   desc: string
+  facebookUrl: string
+  githubUrl: string
+  linkedinUrl: string
+  instagramUrl: string
 }>()
 </script>
+
 <style scoped>
 .button {
   padding: 5px 10px;

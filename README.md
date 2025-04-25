@@ -68,3 +68,7 @@ npm run lint
 ```sh
 npm install tailwindcss @tailwindcss/vite
 ```
+
+```sh
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome
+```
