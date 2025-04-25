@@ -40,7 +40,7 @@
     >
       <a :href="instagramUrl">
         <img
-          src="https://i.pinimg.com/474x/1e/d6/e0/1ed6e0a9e69176a5fdb7e090a1046b86.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLl6A8XE1x6si0LuoVqI-RJGERH5OUZaE1zA&s"
           alt="instagram icon"
           class="w-[30px]"
         />
