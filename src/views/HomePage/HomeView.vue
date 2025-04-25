@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import Header_Home from './components/Header_Home.vue'
-import Body_Home from './components/Body_Home.vue'
 import Footer_Home from './components/Footer_Home.vue'
 </script>
 
 <template>
   <div>
+    <!--? Do tính chất là RouterView nên không thể làm giống React được -->
+    <!--? Sử dụng RouterView để chuyển đổi các View trong Router -->
+
+    <!--? Vấn đề gần nhất sẽ đặt ra là -> Vậy làm thể nào để chuyển đổi Login sang HomePage dựa trên Access Token ?  -->
     <Header_Home />
-    <Body_Home />
+    <RouterView />
     <Footer_Home />
-    <!-- <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-    <RouterView> </RouterView> -->
   </div>
 </template>

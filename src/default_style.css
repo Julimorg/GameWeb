@@ -1,19 +1,16 @@
-@import "tailwindcss";
+/*! CHỖ NÀY LÀ CONFIG TAILWIND -> SẼ CÓ CẬP NHẬT THÊM */
+/*! https://github.com/tailwindlabs/tailwindcss/discussions/15728 */
+@import 'tailwindcss';
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-/* v4 tailwind bị ảnh hưởng vởi * element*/
-
-/* 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-@layer base{
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 }
 
@@ -22,8 +19,8 @@
   src: url(assets/m6x11.ttf);
 }
 
-@theme{
-  --color-customYellow: #D9D980;
-  --color-customPink: #D78B8B;
-  --font-m6x11: "m6x11", "sans-serif"; 
+@theme {
+  --color-customYellow: #d9d980;
+  --color-customPink: #d78b8b;
+  --font-m6x11: 'm6x11', 'sans-serif';
 }
