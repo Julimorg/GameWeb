@@ -11,7 +11,7 @@ import ButtonText from '@/components/ButtonText/ButtonText.vue';
       <h2 class="top-[70%] font-m6x11 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl text-white">
         Planning the craziest tactics with your hands
       </h2>
-      <div class="absolute top-[100%] left-1/2 -translate-x-1/2 -translate-y-1/2 space-x-8 bg-[#BEBBBB]/[0.25]  rounded-[14px]">
+      <div class="absolute top-[100%] left-1/2 -translate-x-1/2 -translate-y-1/2 space-x-8 bg-[#BEBBBB]/[0.25]  rounded-[14px] shadow-lg">
           <RouterLink to="/" custom v-slot="{ navigate, isActive }">
             <ButtonText title="SUPER7" :is-active="isActive" @click="navigate"></ButtonText>
           </RouterLink>
