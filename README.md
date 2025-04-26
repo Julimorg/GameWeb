@@ -72,3 +72,17 @@ npm install tailwindcss @tailwindcss/vite
 ```sh
 npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/vue-fontawesome
 ```
+
+```sh
+npm install animejs
+npm install --save-dev @types/animejs
+```
+
+```sh
+npm install -D @inspira-ui/plugins clsx tailwind-merge class-variance-authority tailwindcss-animate
+npm install @vueuse/core motion-v
+```
+
+```sh
+npm i @vueuse/core
+```
