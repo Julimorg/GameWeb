@@ -31,7 +31,7 @@ import TextGenerate from '@/components/Text/TextGenerate.vue'
       <div
         class="absolute top-[100%] left-1/2 -translate-x-1/2 -translate-y-1/2 space-x-8 bg-[#BEBBBB]/[0.25] rounded-[14px] shadow-lg"
       >
-        <RouterLink to="/" custom v-slot="{ navigate, isActive }">
+      <RouterLink to="/" custom v-slot="{ navigate, isActive }">
           <ButtonText title="SUPER7" :is-active="isActive" @click="navigate"></ButtonText>
         </RouterLink>
         <RouterLink to="/gameplay" custom v-slot="{ navigate, isActive }">

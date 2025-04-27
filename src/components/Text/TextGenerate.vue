@@ -4,7 +4,7 @@
       <span
         v-for="(word, idx) in wordsArray"
         :key="word + idx"
-        class="inline-block"
+        class="inline-block text-[clamp(4px,5vw,36px)]"
         :style="spanStyle"
       >
         {{ word }}&nbsp;
