@@ -11,12 +11,12 @@ import TextGenerate from '@/components/Text/TextGenerate.vue'
       class="header_img absolute w-full h-[15rem]"
     />
     <div class="content-box">
-      <h1 class="top-[25%] font-m6x11 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl">
+      <h1 class="top-[25%] font-m6x11 absolute left-1/2 -translate-x-1/2 -translate-y-1/2">
         <SparklesText
           text="Super 7"
           :colors="{ first: '#9E7AFF', second: '#FE8BBB' }"
           :sparkles-count="10"
-          class="my-8"
+          class="my-8 text-[min(10vw,7rem)]"
         />
       </h1>
       <h2
@@ -24,7 +24,7 @@ import TextGenerate from '@/components/Text/TextGenerate.vue'
       >
         <TextGenerate
           words="Planning the craziest tactics with your hands"
-          class="text-generate-class"
+          class="text-generate-class text-[min(10vw,2.5rem)]"
         />
       </h2>
 

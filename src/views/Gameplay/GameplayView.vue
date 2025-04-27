@@ -122,7 +122,7 @@ import OverViewCard from './components/OverViewCard.vue'
       </OverViewCard>
     </div>
     <div class="font-m6x11 text-5xl mt-20">Ready to discover Super7 ?</div>
-    <ButtonAvailable></ButtonAvailable>
+    <ButtonAvailable text="Available on 2026" />
   </div>
 </template>
 
