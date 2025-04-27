@@ -6,6 +6,7 @@ import ContactCards from './Components/ContactCards.vue'
     <h1 class="font-m6x11 left-1/2 mt-10 text-4xl text-black">Our Members</h1>
 
     <ContactCards
+      v-motion-slide-visible-once-top
       name="Tran Kien Phong - Software Engineer"
       desc=" Want to be a Solution Architect in future"
       facebookUrl="https://www.facebook.com/JianFongg"
@@ -14,6 +15,7 @@ import ContactCards from './Components/ContactCards.vue'
       instagramUrl="https://www.instagram.com/jiann_fongg/"
     />
     <ContactCards
+      v-motion-slide-visible-once-top
       name="Tran Kien Phong - Software Engineer"
       desc=" Want to be a Solution Architect in future"
       facebookUrl="https://www.facebook.com/JianFongg"
@@ -22,6 +24,7 @@ import ContactCards from './Components/ContactCards.vue'
       instagramUrl="https://www.instagram.com/jiann_fongg/"
     />
     <ContactCards
+      v-motion-slide-visible-once-top
       name="Tran Kien Phong - Software Engineer"
       desc=" Want to be a Solution Architect in future"
       facebookUrl="https://www.facebook.com/JianFongg"

@@ -1,4 +1,4 @@
-<template>
+<template> 
     <div class="mt-20 w-full flex flex-col-reverse items-center justify-center max-w-90 sm:flex-row 
       sm:max-w-140 md:max-w-210 lg:max-w-360 gap-2" :class="{
         'sm:flex-row': !isPositionChanged,

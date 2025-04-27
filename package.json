@@ -22,8 +22,9 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@tailwindcss/vite": "^4.1.4",
     "@vueuse/core": "^13.1.0",
+    "@vueuse/motion": "^3.0.3",
     "animejs": "^4.0.2",
-    "motion-v": "^1.0.0-beta.4",
+    "motion-v": "^1.0.0",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"

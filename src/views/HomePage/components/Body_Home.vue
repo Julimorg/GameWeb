@@ -1,6 +1,7 @@
 <template>
   <div class="body-content flex flex-col items-center w-full h-[50rem] bg-transparent">
     <PlayingCard
+      v-motion-slide-visible-once-top
       title="What is Super7 ?"
       desc1="A strategy rogue like card game about bring your deck to travel
       throughout the world!
@@ -12,7 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import ButtonText from '../../../components/ButtonText/ButtonText.vue'
 import PlayingCard from '@/components/PlayingCard/PlayingCard.vue'
 </script>
 

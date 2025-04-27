@@ -86,3 +86,7 @@ npm install @vueuse/core motion-v
 ```sh
 npm i @vueuse/core
 ```
+
+```sh
+npm i @vueuse/motion
+```
