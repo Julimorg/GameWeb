@@ -25,7 +25,7 @@ const classIcons: Record<string, string> = {
   <div class="w-[300px] h-[400px] bg-white border border-black flex flex-col">
     
     <!-- Image Placeholder with Character Name and Skill Description -->
-    <div class="flex-grow bg-while-200 flex flex-col justify-center relative">
+    <div class="flex-grow bg-while-200 flex flex-col justify-center relative background-fade">
        <!-- Class Badge -->
         <div class="absolute top-2 right-2 text-gray-500 px-2 py-1 flex items-center space-x-2 font-edit-undo">
         <img
@@ -70,5 +70,8 @@ const classIcons: Record<string, string> = {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+.background-fade {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 37.34%, #D6D6D6 100%);
 }
 </style>
