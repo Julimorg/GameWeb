@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Edit Undo BRK';
+    src: url('../assets/fonts/edit-undo-brk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'm6x11';
+    src: url('../assets/fonts/m6x11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Tailwind utilities */
+  .font-edit-undo {
+    font-family: 'Edit Undo BRK', sans-serif;
+  }
+  
+  .font-m6x11 {
+    font-family: 'm6x11', monospace;
+  }

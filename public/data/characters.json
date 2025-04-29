@@ -1,0 +1,113 @@
+[
+    {
+      "name": "Fiery Fighter",
+      "class": "Caller",
+      "skill": "Gain FIRE when you play a card, gain more when you play multiple cards or activate Super Card.\n When FIRE reach 100%, entering Fury state, gain 2x Multiplier and activate the first Super Card each turn.",
+      "redUp": "Gain 40% more FIRE",
+      "blueUp": "The first time you enter the Fury state in this Level, gain 12 Basic Cards to your deck."
+    },
+    {
+      "name": "Gold Digger",
+      "class": "Caller",
+      "skill": "Play 7 cards of a number to activate Gold Digger, Gain Multiplier equals to that number.",
+      "redUp": "Only need 6 cards of a number to activate Gold Digger.",
+      "blueUp": "Add 2 Stars to your deck. Star can be transformed into 0 - 7."
+    },
+    
+    {
+      "name": "Fortune Weaver",
+      "class": "Caller",
+      "skill": "Gain Multiplier. Playing card has a chance to Enhance the buff, up to 10 times. The chance increase based on the number of cards you play that turn.",
+      "redUp": "Start with lv.1. Unlock lv.11 with 4x Multiplier. Increase the basic chance to Enhance by 5%.",
+      "blueUp": "Add 3 Fortunes to your deck. Fortune Enhance and give 2x Multiplier for that turn then draw another card."
+    },
+
+    {
+      "name": "Mythmaker",
+      "class": "Caller",
+      "skill": "Activate 16 Super Card to entering the Mythic state. Mythic give you 10 bonus point for each card you play in a turn.",
+      "redUp": "Lower the number of Super Card required to entering the Mythic state by 4.",
+      "blueUp": "Add 3 Myths to your deck. Myth open a panel with the next 5 cards in your deck, then draw the selected card."
+    },
+    
+    {
+      "name": "Dediacated Deliverer",
+      "class": "Caller",
+      "skill": "Add 3 Packages into your Bench each Stage. When the Package reach the first place of the Bench, activate it and add 5 Basic Cards into your decks. Gain 2 more Packages into your bench if you activate 2 Packages.",
+      "redUp": "Add 2 more Packages into your Bench each Stage.",
+      "blueUp": "When activating a Package, add 1 more Package if your remain Package in the Bench is less than 3."
+    }
+
+    ,
+    {
+      "name": "Fresh Recycler",
+      "class": "Controller",
+      "skill": "Gain Switch Button which can be activated 2 times. \nPressing Switch to and select cards to return to deck and draw the same amount of cards.",
+      "redUp": "You can use Switch 2 more times.",
+      "blueUp": "Switch can be used for Super Card."
+    },
+    {
+      "name": "Cyber Pirate",
+      "class": "Controller",
+      "skill": "Whenever you play 14 difference colors and difference numbers, gain 2 Hack cards, then reset the progress.",
+      "redUp": "Lower the required number to 12.",
+      "blueUp": "Add 1 Hack to your deck at the start of the game. When Hack added to deck, it always appear at the top of the deck."
+    },
+
+    {
+      "name": "Witch Transformer",
+      "class": "Controller",
+      "skill": "Transform 7 random cards into Glitched Card. Glitched Card transform to random Basic Card each turn.",
+      "redUp": "Gain ability to switch number or color of all Glitched Cards in hand. You can activate it 3 times.",
+      "blueUp": "Whenever you activate a Super Card, transform a random card in your deck into Glitched Card."
+    },
+    {
+      "name": "Deep Diver",
+      "class": "Controller",
+      "skill": "Whenever your deck has less than 20 cards, gain Dive Deep. \nIn Dive Deep state, foreach Super Card activated, gain 2 more cards in your deck.",
+      "redUp": "Dive Deep activated when your deck has less than 32 cards.",
+      "blueUp": "In Dive Deep state, for every 2 activated Super Cards will add a Special Card to your deck."
+    },
+    {
+      "name": "Special Traveller",
+      "class": "Controller",
+      "skill": "If you play 4 or more cards in a turn but cannot activate any Super Card, activate 1 random Super Card.",
+      "redUp": "If you play 4 or more cards in a turn but activate 1 or less Super Card, activate 1 random Super Card.",
+      "blueUp": "If you play cards but not activate any Super Card, activate 1 random Super Card."
+    },
+    {
+      "name": "Overseer",
+      "class": "Supporter",
+      "skill": "Provide a panel to show the next 2 cards of your deck.",
+      "redUp": "The panel show the next 3 cards of your deck.",
+      "blueUp": "The panel show the next 2 more Super Cards of your Bench."
+    },
+    {
+      "name": "Handy Helper",
+      "class": "Supporter",
+      "skill": "Provide an ability to hold a card. When activate, select a card and hold it. If you already hold a card, both cards will switch position.",
+      "redUp": "Provide an ability to transform a holding card into a Special Card. This ability can activate 3 times.",
+      "blueUp": "Provide toggles to transform number or color of a holding card."
+    },
+    {
+      "name": "Astra Prayer",
+      "class": "Supporter",
+      "skill": "Grant 6 random Basic Cards in your deck Blessed Effect. Each Blessed Card used in a turn give additional x1 Multiplier.",
+      "redUp": "Each Super Card activated grant Blessed Effect to an additional Basic Card in your deck.",
+      "blueUp": "Activate 16 Super Card grant Blessed Effect to all Basic Cards in your deck."
+    },
+    {
+      "name": "Grand Magician",
+      "class": "Supporter",
+      "skill": "Add 2 Magic in your deck. Magic transform into the nearest played card in use.",
+      "redUp": "Add 1 Magic and draw it on first turn.",
+      "blueUp": "ttach 4 Rabbit into random Super Card in Bench. When that Super Card activated or reach the first position of the bench, collect Rabbit and add 1 Magic in your deck."
+    },
+    {
+      "name": "Soul Painter",
+      "class": "Supporter",
+      "skill": "Add 3 Canvas in your deck. Use Soul Painter skill to select number and color of that canvas.",
+      "redUp": "Add 2 more Canvas.",
+      "blueUp": "Attach 4 Rabbit into random Super Card in Bench. When that Super Card activated or reach the first position of the bench, collect Rabbit and add 1 Magic in your deck."
+    }
+  ]
