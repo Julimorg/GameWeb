@@ -1,0 +1,33 @@
+[
+    {
+      "image": "src/assets/Playing_Card_Img.png",
+      "title": "Playing card",
+      "desc": "Play cards, earn points. Reach the checkpoint to complete a stage. Bring your deck with 49 Basic Cards with 7 Basic Colors from 1 - 7 to challenge with 5 stages. The played card will be lost, so use it wisely!"
+    },
+    {
+      "image": "src/assets/super_cards.png",
+      "title": "Activate Super Card.",
+      "desc": "Gain even more point by activate Super Card. Super Card activated grant Multiplier to your score, which are multiplicative so that you can activate as more as possible to gain massive value."
+    },
+    {
+      "image": "src/assets/companion_1.png",
+      "title": "Choose your companion!",
+      "desc": "These are many of friends will help you out! Each companion have specific abilities: Grant some additional way to achieve score, give advantage effect or entirely change the game mechanic to support you."
+    },
+    {
+      "image": "src/assets/map_selection.png",
+      "title": "Roguelike adventure!",
+      "desc": "Each run generate a random map for player with a lot of surprises. New companion join your team, occurrences of some guests, purchase item from varieties of shop, forge your cards,... and more!"
+    },
+    {
+      "image": "src/assets/Playing_Card_Img.png",
+      "title": "Manage your resources and enhance your strength.",
+      "desc": "Complete a stage give you token to purchase more cards, game-changing items and more to help you in the next stage. New companion join your team, occurrences of some guests, purchase item from varieties of shop, forge your cards,... and more!"      
+    },
+    {
+      "image": "src/assets/Playing_Card_Img.png",
+      "title": "Strategy at all choices!",
+      "desc": "All the choices matter! Adapting with the current circumstances and choose the right path to gain success, even when you almost losing the run."
+    }
+  ]
+  

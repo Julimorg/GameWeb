@@ -7,8 +7,7 @@
     }">
         <div class="flex flex-col space-y-4 md:space-y-10 text-center sm:text-left lg:max-w-160">
             <h1 class="font-m6x11 text-2xl md:text-2xl lg:text-4xl mt-4 sm:mt-0">{{ title }}</h1>
-            <p class="font-m6x11 text-xl md:text-2xl">{{ desc1 }}</p>
-            <p class="font-m6x11 text-xl md:text-2xl">{{ desc2 }}</p>
+            <p class="font-m6x11 text-xl md:text-3xl">{{ desc }}</p>
         </div>
         <div class="border-none">
             <img :src="image" class="w-full max-w-150" />
@@ -19,8 +18,7 @@
 <script setup lang="ts">
 const props = defineProps<{
     title: string
-    desc1: string
-    desc2: string
+    desc: string
     isPositionChanged: boolean
     image: string
 }>()
