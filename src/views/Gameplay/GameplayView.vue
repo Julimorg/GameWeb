@@ -68,7 +68,7 @@ onMounted(() => {
 <template>
   <div class="flex flex-col items-center justify-center mb-30 space-y-10">
     <div class="">
-      <GameplayCard v-for="(gameplay, index) in gameplayDatas" 
+      <GameplayCard v-motion-slide-visible-bottom v-for="(gameplay, index) in gameplayDatas" 
         :key="index" 
         :title="gameplay.title"
         :desc="gameplay.desc" 
