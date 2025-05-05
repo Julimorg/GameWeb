@@ -85,7 +85,7 @@ loadCharacters();
           class="w-full p-2 border rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
-      <div v-if="Object.keys(groupedCharacters).length === 0" class="text-center py-4 text-gray-500">
+      <div v-if="Object.keys(groupedCharacters).length === 0" class="text-center py-4 text-gray-500 w-full  h-[45rem]">
         No characters found.
       </div>
       <div v-for="(group, className) in groupedCharacters" :key="className" class="mb-8">
@@ -100,7 +100,7 @@ loadCharacters();
         </div>
         <hr class="border-gray-300 mb-4" />
         <div class="flex flex-wrap justify-left gap-4">
-          <CharacterCards v-for="character in group" :key="character.name" :character="character" />
+          <CharacterCards  v-motion-slide-visible-once-top v-for="character in group" :key="character.name" :character="character" />
         </div>
       </div>
     </div>
