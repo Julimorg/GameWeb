@@ -80,7 +80,8 @@ onMounted(() => {
     <div class="font-m6x11 text-6xl mt-6">Game Overview</div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-y-10 w-full max-w-360">
-      <OverViewCard v-motion-slide-visible-bottom v-for="(gameoverview, index) in gameOverviewDatas"
+      <OverViewCard v-motion-slide-visible-bottom v-for="gameoverview in gameOverviewDatas"
+        :key="gameoverview.title"
         :title="gameoverview.title"
         :desc="gameoverview.desc"
         :image="gameoverview.image">
