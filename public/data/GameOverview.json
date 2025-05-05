@@ -1,31 +1,31 @@
 [
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Choose a level",
       "desc": "The game verse contain multiple worlds, each world have a number of level. Choose a level to start the game."
     },
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Choose your path",
       "desc": "Each level when start will generate a map with multiple directions. Choose the path suit your playstyle: Play hard win hard, manage resources or gamble for strength."
     },
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Perform you strength in Stage",
       "desc": "Each stage have a checkpoint score to pass.\nUse carefully your resources before enter the final Boss Stage!"
     },
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Purchase items and buffs",
       "desc": "Each stage you pass will give you token to purchase in shop. Always remember to check it after each stage."
     },
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Final Boss Stage",
       "desc": "When you reach the final boss stage, whether by your strength or just a luck, ready for the final.\nBoss Stage have a specific effect that change your play. Review your final boss carefully to plan your run."
     },
     {
-      "image": "src/assets/Playing_Card_Img.png",
+      "image": "./src/assets/Playing_Card_Img.png",
       "title": "Play to gain more power!",
       "desc": "Both win or lose give you the Essences to enhance your Card in gallery or buff of the Universe. That help you pass the next level easier!"
     }
